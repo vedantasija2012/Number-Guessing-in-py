@@ -22,4 +22,3 @@ if guesses<highscore:
     print("Congratulations! You made a new High Score :)")
     with open('NumberGuessing_in_py\highScore.txt', 'w') as f:
         f.write(str(guesses))
-# C:\Users\vedan\GitHub Projects\NumberGuessing_in_py\highScore.txt
